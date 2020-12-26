@@ -1,0 +1,23 @@
+{
+  "name": "generate-template",
+  "version": "1.0.0",
+  "description": "Template generator cli project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "generate-template": "./index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Ibiyemi Pedro",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.2.1",
+    "enquirer": "^2.3.6",
+    "esm": "^3.2.25",
+    "prompts": "^2.4.0"
+  }
+}
